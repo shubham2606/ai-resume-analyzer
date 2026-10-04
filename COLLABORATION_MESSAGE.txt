@@ -1,0 +1,23 @@
+Hi Nishtha 😊
+
+I’ve prepared the Phase 1 POC structure for the AI Resume Analyzer so we can start with something small and practical.
+
+Phase 1 flow:
+• Upload a PDF/DOCX resume
+• Extract the resume text
+• Detect contact details and technical skills
+• Generate a basic resume score
+• Provide improvement suggestions
+• Show matching job roles
+• Display everything through a React frontend + FastAPI backend
+
+For Phase 1, I’ve intentionally kept the analysis rule-based, so we don’t need any paid AI/API key. Once this POC is stable, Phase 2 will add the actual LLM layer for semantic feedback, job-description matching, ATS keyword gaps, and better suggestions.
+
+Suggested task split:
+I’ll handle the overall architecture, FastAPI/API integration, scoring logic, frontend integration, and code review.
+
+For your first ownership area, you can take the resume parser side: PDF/DOCX extraction, validation/error handling, parser testing, and improving skill detection. Since you’re also learning React, after that we can pick a small frontend task together.
+
+We’ll work through GitHub branches and Pull Requests rather than directly changing main, so both of us can review and learn from each other’s code.
+
+I’ll share the project files/repository with the setup instructions. Once you run it locally, we can create our first issues and start with the parser improvements. 🚀
